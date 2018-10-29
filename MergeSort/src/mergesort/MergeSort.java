@@ -6,12 +6,6 @@ import javax.swing.JOptionPane;
 
 public class MergeSort {
     
-    static void leitura(int x[]) {
-        for (int i = 0; i < x.length; i++) {
-            x[i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira o valor da posição " + (i + 1) + " : "));
-        }
-    }
-
     static void mergeSort(int[] vetor, int[] aux, int inicio, int fim){
         if(inicio < fim){
             int meio = (inicio + fim)/2;
@@ -41,13 +35,11 @@ public class MergeSort {
     }
     
     public static void main(String[] args) {
-       int vetor[] = new int[10];
+       int vetor[] = {38,27,43,3,9,82,10};
        int aux[] = new int[vetor.length];
        
        JOptionPane.showMessageDialog(null, "Ordenação de Vetor com Merge Sort: ");
-       
-       leitura(vetor);
-       
+              
        mergeSort(vetor, aux, 0, vetor.length-1);
        
        JOptionPane.showMessageDialog(null, "O vetor ordenado é: " + Arrays.toString(vetor));
