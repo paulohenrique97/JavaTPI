@@ -6,7 +6,6 @@
 package pi;
 
 import static pi.funcoesGenericas.potencia;
-import static pi.operacoes.soma;
 
 /**
  *
@@ -24,6 +23,10 @@ public class conversao {
             }
         }
         return decimal;
+    }
+    
+    public static int conversaoDecimalString(int binVetor[], String binVetorString[]) {
+        for()
     }
 
     public static String conversaoBinario(int decimal) {
@@ -46,12 +49,5 @@ public class conversao {
         return binario;
     }
 
-    public static void main(String[] args) {
-        int a[] = {0, 0, 1, 0};
-        int b[] = {0, 0, 1, 0};
-        int c;
-        c = soma(a, b);
-        System.out.println(c + " = " + conversaoBinario(c));
-    }
-
+    
 }
