@@ -165,7 +165,7 @@ public class Main extends javax.swing.JFrame {
                 .addContainerGap(52, Short.MAX_VALUE))
         );
 
-        tabs.addTab("Convesão", panelConversao);
+        tabs.addTab("Conversão", panelConversao);
 
         fieldDecimalCalc1.setText("Decimal");
 

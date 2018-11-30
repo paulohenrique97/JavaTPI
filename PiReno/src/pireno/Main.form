@@ -46,8 +46,8 @@
         <Container class="javax.swing.JPanel" name="panelConversao">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Conves&#xe3;o">
-                <Property name="tabTitle" type="java.lang.String" value="Conves&#xe3;o"/>
+              <JTabbedPaneConstraints tabName="Convers&#xe3;o">
+                <Property name="tabTitle" type="java.lang.String" value="Convers&#xe3;o"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
