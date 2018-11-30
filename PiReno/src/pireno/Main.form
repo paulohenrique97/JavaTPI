@@ -203,28 +203,6 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
               <SubComponents>
-                <Container class="javax.swing.JPanel" name="panelBinario">
-                  <Constraints>
-                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="Bin&#xe1;rio">
-                        <Property name="tabTitle" type="java.lang.String" value="Bin&#xe1;rio"/>
-                      </JTabbedPaneConstraints>
-                    </Constraint>
-                  </Constraints>
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="429" max="32767" attributes="0"/>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                </Container>
                 <Container class="javax.swing.JPanel" name="panelDecimal">
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
@@ -242,29 +220,24 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
                                           <Group type="102" attributes="0">
-                                              <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Group type="102" attributes="0">
-                                              <Component id="jTextField1" min="-2" pref="65" max="-2" attributes="0"/>
+                                              <Component id="fieldDecimalCalc1" min="-2" pref="65" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="comboBoxMaisOuMenos" min="-2" max="-2" attributes="0"/>
+                                              <Component id="comboBoxSinalD" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jTextField2" min="-2" pref="65" max="-2" attributes="0"/>
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="labelIgual" min="-2" max="-2" attributes="0"/>
+                                              <Component id="fieldDecimalCalc2" min="-2" pref="65" max="-2" attributes="0"/>
                                           </Group>
+                                          <Component id="labelBinSimples" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelSinalMag" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelC1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelC2" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="buttonIgualD" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="labelResultadoDecimal" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelResultadoDecimalD" min="-2" max="-2" attributes="0"/>
                                           <Component id="resultadoC2D" min="-2" max="-2" attributes="0"/>
                                           <Component id="resultadoC1D" min="-2" max="-2" attributes="0"/>
                                           <Component id="resultadoSinalMagD" min="-2" max="-2" attributes="0"/>
@@ -272,7 +245,7 @@
                                       </Group>
                                   </Group>
                               </Group>
-                              <EmptySpace pref="109" max="32767" attributes="0"/>
+                              <EmptySpace pref="77" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -280,52 +253,53 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="comboBoxMaisOuMenos" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="labelIgual" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="labelResultadoDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="fieldDecimalCalc1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="fieldDecimalCalc2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="comboBoxSinalD" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="buttonIgualD" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelResultadoDecimalD" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="labelBinSimples" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelSinalMag" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelC1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelC2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="labelResultadoBinarioD" min="-2" pref="14" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="resultadoSinalMagD" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="resultadoC1D" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="resultadoC2D" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="labelResultadoBinarioD" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="resultadoSinalMagD" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="resultadoC1D" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="resultadoC2D" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="120" max="32767" attributes="0"/>
+                              <EmptySpace pref="121" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Component class="javax.swing.JTextField" name="jTextField1">
+                    <Component class="javax.swing.JTextField" name="fieldDecimalCalc1">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Decimal"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="jTextField2">
+                    <Component class="javax.swing.JTextField" name="fieldDecimalCalc2">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Decimal"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JComboBox" name="comboBoxMaisOuMenos">
+                    <Component class="javax.swing.JComboBox" name="comboBoxSinalD">
                       <Properties>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="2">
@@ -341,12 +315,7 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel1">
                     </Component>
-                    <Component class="javax.swing.JLabel" name="labelIgual">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="="/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="labelResultadoDecimal">
+                    <Component class="javax.swing.JLabel" name="labelResultadoDecimalD">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Decimal"/>
                       </Properties>
@@ -371,7 +340,7 @@
                         <Property name="text" type="java.lang.String" value="Complemento de 2"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel6">
+                    <Component class="javax.swing.JLabel" name="labelBinSimples">
                       <Properties>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Tahoma" size="11" style="1"/>
@@ -379,7 +348,7 @@
                         <Property name="text" type="java.lang.String" value="Bin&#xe1;rio Simples:"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel10">
+                    <Component class="javax.swing.JLabel" name="labelSinalMag">
                       <Properties>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Tahoma" size="11" style="1"/>
@@ -387,7 +356,7 @@
                         <Property name="text" type="java.lang.String" value="Sinal Magnitude:"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel11">
+                    <Component class="javax.swing.JLabel" name="labelC1">
                       <Properties>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Tahoma" size="11" style="1"/>
@@ -395,12 +364,192 @@
                         <Property name="text" type="java.lang.String" value="Complemento de 1:"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel12">
+                    <Component class="javax.swing.JLabel" name="labelC2">
                       <Properties>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Tahoma" size="11" style="1"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="Complemento de 2:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="buttonIgualD">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="="/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="panelBin&#xe1;rio">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Bin&#xe1;rio">
+                        <Property name="tabTitle" type="java.lang.String" value="Bin&#xe1;rio"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="fieldBinarioCalc1" min="-2" pref="65" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="comboBoxSinalB" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="fieldBinarioCalc2" min="-2" pref="65" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="labelBinSimples1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelSinalMag1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelC3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelC4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="buttonIgualB" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelResultadoDecimalB" min="-2" max="-2" attributes="0"/>
+                                          <Component id="resultadoC2B" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="resultadoC1B" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="resultadoSinalMagB" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelResultadoBinarioB" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="77" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="fieldBinarioCalc1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fieldBinarioCalc2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboBoxSinalB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelResultadoDecimalB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="buttonIgualB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelResultadoBinarioB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelBinSimples1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="resultadoSinalMagB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelSinalMag1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="resultadoC1B" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelC3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="resultadoC2B" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelC4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="120" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextField" name="fieldBinarioCalc1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bin&#xe1;rio"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="fieldBinarioCalc2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bin&#xe1;rio"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="comboBoxSinalB">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="2">
+                            <StringItem index="0" value="+"/>
+                            <StringItem index="1" value="-"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="toolTipText" type="java.lang.String" value=""/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel2">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="labelResultadoDecimalB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Decimal"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="labelResultadoBinarioB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bin&#xe1;rio"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="resultadoSinalMagB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Sinal Magnitude"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="resultadoC1B">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Complemento de 1"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="resultadoC2B">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Complemento de 2"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="labelBinSimples1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="11" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Bin&#xe1;rio Simples:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="labelSinalMag1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="11" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Sinal Magnitude:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="labelC3">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="11" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Complemento de 1:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="labelC4">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="11" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Complemento de 2:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="buttonIgualB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="="/>
                       </Properties>
                     </Component>
                   </SubComponents>
