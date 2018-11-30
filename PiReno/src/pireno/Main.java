@@ -391,11 +391,8 @@ public class Main extends javax.swing.JFrame {
         //NÃO FUNCIONA AINDA
         String binario = fieldBinario.getText();
         int[] vetorBin = Leitura.StringParaVetorInt(binario);
-//        for(int i = 0; i < vetorBin.length; i++){
-//            System.out.print(vetorBin[i]);
-//        }
-//        int decimal = Conversao.conversaoDecimal(vetorBin);
-//        labelConvertidoDecimal.setText(String.valueOf(decimal));
+        int decimal = Conversao.conversaoDecimal(vetorBin);
+        labelConvertidoDecimal.setText(String.valueOf(decimal));
     }//GEN-LAST:event_buttonConverterBinarioActionPerformed
 
     private void buttonConverterDecimalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonConverterDecimalActionPerformed

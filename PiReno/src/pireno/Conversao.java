@@ -17,10 +17,12 @@ public class Conversao {
 
     public static int conversaoDecimal(int binario[]) {
         int decimal = 0;
+        int j = binario.length-1; 
         for (int i = 0; i < binario.length; i++) {
             if (binario[i] != 0) {
-                decimal += (binario[i] * (potencia(2, i)));
+                decimal += (binario[i] * (potencia(2, j)));
             }
+            j--;
         }
         return decimal;
     }
