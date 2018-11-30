@@ -389,8 +389,8 @@ public class Main extends javax.swing.JFrame {
     private void buttonConverterBinarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonConverterBinarioActionPerformed
         // TODO add your handling code here:
         //NÃO FUNCIONA AINDA
-//        String binario = fieldBinario.getText();
-//        int[] vetorBin = Leitura.StringParaVetor(binario);
+        String binario = fieldBinario.getText();
+        int[] vetorBin = Leitura.StringParaVetorInt(binario);
 //        for(int i = 0; i < vetorBin.length; i++){
 //            System.out.print(vetorBin[i]);
 //        }

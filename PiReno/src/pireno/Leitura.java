@@ -12,13 +12,13 @@ package pireno;
 public class Leitura {
         
     public static int[] StringParaVetorInt(String binarioString){
-        String[] vetorString = binarioString.split("");
-        //NÃO FUNCIONA DAQUI PRA BAIXO
-        int vetorInt[] = new int[vetorString.length];
-        for (int i = 0; i < vetorString.length-1 ; i++) {
-            vetorInt[i] = Integer.parseInt(vetorString[i]);
-        }
+        
+        char[] vetor = binarioString.toCharArray();		
+        int vetorInt[] = new int[vetor.length];
+	for (int i = 0; i < vetor.length; i++) {
+            vetorInt[i] = Character.getNumericValue(vetor[i]);
+	}        
         return vetorInt;
-    } 
+    }
     
 }
