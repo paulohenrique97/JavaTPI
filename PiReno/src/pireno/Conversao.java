@@ -45,9 +45,9 @@ public class Conversao {
         StringBuilder sb = new StringBuilder(binario);
         binario = sb.reverse().toString();
 
-        while (binario.length() < 4) {
-            binario = "0" + binario;
-        }
+//        while (binario.length() < 4) {
+//            binario = "0" + binario;
+//        }
         return binario;
     }
 

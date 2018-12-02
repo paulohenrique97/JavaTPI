@@ -21,4 +21,13 @@ public class Leitura {
         return vetorInt;
     }
     
+    public static String VetorIntParaString(int[] vetorBinario){
+        
+        String binS = "";
+        for (int i = 0; i < vetorBinario.length; i++) {
+            binS += Integer.toString(vetorBinario[i]);
+        }
+        return binS;
+    }
+    
 }

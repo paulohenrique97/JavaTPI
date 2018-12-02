@@ -27,79 +27,74 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        tabs = new javax.swing.JTabbedPane();
+        tabCreditos = new javax.swing.JTabbedPane();
         panelConversao = new javax.swing.JPanel();
-        labelConversaoBinarioParaDecimal = new javax.swing.JLabel();
-        labelConversaoBinarioParaDecimal1 = new javax.swing.JLabel();
-        fieldDecimal = new javax.swing.JTextField();
-        fieldBinario = new javax.swing.JTextField();
-        buttonConverterBinario = new javax.swing.JButton();
+        panelConvDecParaBin = new javax.swing.JPanel();
         buttonConverterDecimal = new javax.swing.JButton();
-        labelConvertidoDecimal = new javax.swing.JLabel();
+        fieldDecimal = new javax.swing.JTextField();
         labelConvertidoBinario = new javax.swing.JLabel();
         labelDoisPontos = new javax.swing.JLabel();
+        panelConvBinParaDec = new javax.swing.JPanel();
+        labelConvertidoDecimal = new javax.swing.JLabel();
         labelDoisPontos1 = new javax.swing.JLabel();
+        buttonConverterBinario = new javax.swing.JButton();
+        fieldBinario = new javax.swing.JTextField();
         panelCalculadora = new javax.swing.JPanel();
         tabCalculadora = new javax.swing.JTabbedPane();
         panelDecimal = new javax.swing.JPanel();
-        fieldDecimalCalc1 = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        panelDivResD = new javax.swing.JPanel();
+        labelResultadoC2D = new javax.swing.JLabel();
+        labelResultadoC1D = new javax.swing.JLabel();
+        labelResultadoSinalMagD = new javax.swing.JLabel();
+        labelResultadoBinarioD = new javax.swing.JLabel();
+        labelC2 = new javax.swing.JLabel();
+        labelC1 = new javax.swing.JLabel();
+        labelSinalMag = new javax.swing.JLabel();
+        labelBinSimples = new javax.swing.JLabel();
+        panelDivisaoCalcD = new javax.swing.JPanel();
+        labelResultadoDecimalD = new javax.swing.JLabel();
+        buttonIgualD = new javax.swing.JButton();
         fieldDecimalCalc2 = new javax.swing.JTextField();
         comboBoxSinalD = new javax.swing.JComboBox<>();
-        jLabel1 = new javax.swing.JLabel();
-        labelResultadoDecimalD = new javax.swing.JLabel();
-        labelResultadoBinarioD = new javax.swing.JLabel();
-        resultadoSinalMagD = new javax.swing.JLabel();
-        resultadoC1D = new javax.swing.JLabel();
-        resultadoC2D = new javax.swing.JLabel();
-        labelBinSimples = new javax.swing.JLabel();
-        labelSinalMag = new javax.swing.JLabel();
-        labelC1 = new javax.swing.JLabel();
-        labelC2 = new javax.swing.JLabel();
-        buttonIgualD = new javax.swing.JButton();
-        panelBinário = new javax.swing.JPanel();
-        fieldBinarioCalc1 = new javax.swing.JTextField();
-        fieldBinarioCalc2 = new javax.swing.JTextField();
-        comboBoxSinalB = new javax.swing.JComboBox<>();
-        jLabel2 = new javax.swing.JLabel();
-        labelResultadoDecimalB = new javax.swing.JLabel();
+        fieldDecimalCalc1 = new javax.swing.JTextField();
+        panelBinario = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        panelDivResD4 = new javax.swing.JPanel();
+        labelResultadoC2B = new javax.swing.JLabel();
+        labelResultadoC1B = new javax.swing.JLabel();
+        labelResultadoSinalMagB = new javax.swing.JLabel();
         labelResultadoBinarioB = new javax.swing.JLabel();
-        resultadoSinalMagB = new javax.swing.JLabel();
-        resultadoC1B = new javax.swing.JLabel();
-        resultadoC2B = new javax.swing.JLabel();
-        labelBinSimples1 = new javax.swing.JLabel();
-        labelSinalMag1 = new javax.swing.JLabel();
-        labelC3 = new javax.swing.JLabel();
-        labelC4 = new javax.swing.JLabel();
+        labelC11 = new javax.swing.JLabel();
+        labelC12 = new javax.swing.JLabel();
+        labelSinalMag5 = new javax.swing.JLabel();
+        labelBinSimples5 = new javax.swing.JLabel();
+        panelDivisaoCalcD1 = new javax.swing.JPanel();
+        labelResultadoDecimalB = new javax.swing.JLabel();
         buttonIgualB = new javax.swing.JButton();
+        fieldBinCalc2 = new javax.swing.JTextField();
+        comboBoxSinalB = new javax.swing.JComboBox<>();
+        fieldBinCalc1 = new javax.swing.JTextField();
+        panelCreditos = new javax.swing.JPanel();
+        panelExplicacao = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        panelAlunos = new javax.swing.JPanel();
+        labelMaycon = new javax.swing.JLabel();
+        labelPaulo = new javax.swing.JLabel();
+        labelVitor = new javax.swing.JLabel();
+        labelSamuel = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        tabs.setInheritsPopupMenu(true);
-        tabs.setName(""); // NOI18N
-        tabs.setRequestFocusEnabled(false);
-        tabs.setVerifyInputWhenFocusTarget(false);
+        tabCreditos.setInheritsPopupMenu(true);
+        tabCreditos.setName(""); // NOI18N
+        tabCreditos.setRequestFocusEnabled(false);
+        tabCreditos.setVerifyInputWhenFocusTarget(false);
 
-        labelConversaoBinarioParaDecimal.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        labelConversaoBinarioParaDecimal.setText("Conversão Binário para Decimal:");
-
-        labelConversaoBinarioParaDecimal1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        labelConversaoBinarioParaDecimal1.setText("Conversão Decimal para Binário:");
-
-        fieldDecimal.setText("Decimal");
-        fieldDecimal.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                fieldDecimalActionPerformed(evt);
-            }
-        });
-
-        fieldBinario.setText("Binário");
-
-        buttonConverterBinario.setText("Converter");
-        buttonConverterBinario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttonConverterBinarioActionPerformed(evt);
-            }
-        });
+        panelConvDecParaBin.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Conversão Decimal para Binário", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
 
         buttonConverterDecimal.setText("Converter");
         buttonConverterDecimal.addActionListener(new java.awt.event.ActionListener() {
@@ -108,56 +103,37 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        labelConvertidoDecimal.setText("Convertido");
+        fieldDecimal.setText("Decimal");
+        fieldDecimal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fieldDecimalActionPerformed(evt);
+            }
+        });
 
         labelConvertidoBinario.setText("Convertido");
 
         labelDoisPontos.setText(":");
 
-        labelDoisPontos1.setText(":");
-
-        javax.swing.GroupLayout panelConversaoLayout = new javax.swing.GroupLayout(panelConversao);
-        panelConversao.setLayout(panelConversaoLayout);
-        panelConversaoLayout.setHorizontalGroup(
-            panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelConversaoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelConversaoBinarioParaDecimal)
-                    .addComponent(labelConversaoBinarioParaDecimal1)
-                    .addGroup(panelConversaoLayout.createSequentialGroup()
-                        .addComponent(fieldDecimal, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(buttonConverterDecimal)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(labelDoisPontos)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(labelConvertidoBinario))
-                    .addGroup(panelConversaoLayout.createSequentialGroup()
-                        .addComponent(fieldBinario, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(buttonConverterBinario)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(labelDoisPontos1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(labelConvertidoDecimal)))
-                .addContainerGap(205, Short.MAX_VALUE))
+        javax.swing.GroupLayout panelConvDecParaBinLayout = new javax.swing.GroupLayout(panelConvDecParaBin);
+        panelConvDecParaBin.setLayout(panelConvDecParaBinLayout);
+        panelConvDecParaBinLayout.setHorizontalGroup(
+            panelConvDecParaBinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelConvDecParaBinLayout.createSequentialGroup()
+                .addGap(105, 105, 105)
+                .addComponent(fieldDecimal, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(buttonConverterDecimal)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelDoisPontos)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelConvertidoBinario)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        panelConversaoLayout.setVerticalGroup(
-            panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelConversaoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(labelConversaoBinarioParaDecimal)
-                .addGap(45, 45, 45)
-                .addGroup(panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(fieldBinario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(buttonConverterBinario)
-                    .addComponent(labelConvertidoDecimal)
-                    .addComponent(labelDoisPontos1))
-                .addGap(68, 68, 68)
-                .addComponent(labelConversaoBinarioParaDecimal1)
-                .addGap(45, 45, 45)
-                .addGroup(panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        panelConvDecParaBinLayout.setVerticalGroup(
+            panelConvDecParaBinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelConvDecParaBinLayout.createSequentialGroup()
+                .addGap(43, 43, 43)
+                .addGroup(panelConvDecParaBinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(fieldDecimal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(buttonConverterDecimal)
                     .addComponent(labelConvertidoBinario)
@@ -165,83 +141,119 @@ public class Main extends javax.swing.JFrame {
                 .addContainerGap(52, Short.MAX_VALUE))
         );
 
-        tabs.addTab("Conversão", panelConversao);
+        panelConvBinParaDec.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Conversão Binário para Decimal", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
 
-        fieldDecimalCalc1.setText("Decimal");
+        labelConvertidoDecimal.setText("Convertido");
 
-        fieldDecimalCalc2.setText("Decimal");
+        labelDoisPontos1.setText(":");
 
-        comboBoxSinalD.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "+", "-" }));
-        comboBoxSinalD.setToolTipText("");
+        buttonConverterBinario.setText("Converter");
+        buttonConverterBinario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonConverterBinarioActionPerformed(evt);
+            }
+        });
 
-        labelResultadoDecimalD.setText("Decimal");
+        fieldBinario.setText("Binário");
+
+        javax.swing.GroupLayout panelConvBinParaDecLayout = new javax.swing.GroupLayout(panelConvBinParaDec);
+        panelConvBinParaDec.setLayout(panelConvBinParaDecLayout);
+        panelConvBinParaDecLayout.setHorizontalGroup(
+            panelConvBinParaDecLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelConvBinParaDecLayout.createSequentialGroup()
+                .addGap(103, 103, 103)
+                .addComponent(fieldBinario, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(buttonConverterBinario)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelDoisPontos1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelConvertidoDecimal)
+                .addGap(80, 80, 80))
+        );
+        panelConvBinParaDecLayout.setVerticalGroup(
+            panelConvBinParaDecLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelConvBinParaDecLayout.createSequentialGroup()
+                .addGap(44, 44, 44)
+                .addGroup(panelConvBinParaDecLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fieldBinario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(buttonConverterBinario)
+                    .addComponent(labelConvertidoDecimal)
+                    .addComponent(labelDoisPontos1))
+                .addContainerGap(49, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout panelConversaoLayout = new javax.swing.GroupLayout(panelConversao);
+        panelConversao.setLayout(panelConversaoLayout);
+        panelConversaoLayout.setHorizontalGroup(
+            panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelConversaoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(panelConvBinParaDec, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(panelConvDecParaBin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        panelConversaoLayout.setVerticalGroup(
+            panelConversaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelConversaoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(panelConvBinParaDec, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addComponent(panelConvDecParaBin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(23, 23, 23))
+        );
+
+        tabCreditos.addTab("Conversão", panelConversao);
+
+        panelDivResD.setBorder(javax.swing.BorderFactory.createTitledBorder("Resultados"));
+        panelDivResD.setPreferredSize(new java.awt.Dimension(399, 122));
+
+        labelResultadoC2D.setText("Complemento de 2");
+
+        labelResultadoC1D.setText("Complemento de 1");
+
+        labelResultadoSinalMagD.setText("Sinal Magnitude");
 
         labelResultadoBinarioD.setText("Binário");
-
-        resultadoSinalMagD.setText("Sinal Magnitude");
-
-        resultadoC1D.setText("Complemento de 1");
-
-        resultadoC2D.setText("Complemento de 2");
-
-        labelBinSimples.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        labelBinSimples.setText("Binário Simples:");
-
-        labelSinalMag.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        labelSinalMag.setText("Sinal Magnitude:");
-
-        labelC1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        labelC1.setText("Complemento de 1:");
 
         labelC2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         labelC2.setText("Complemento de 2:");
 
-        buttonIgualD.setText("=");
+        labelC1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        labelC1.setText("Complemento de 1:");
 
-        javax.swing.GroupLayout panelDecimalLayout = new javax.swing.GroupLayout(panelDecimal);
-        panelDecimal.setLayout(panelDecimalLayout);
-        panelDecimalLayout.setHorizontalGroup(
-            panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelDecimalLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addGroup(panelDecimalLayout.createSequentialGroup()
-                        .addGroup(panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(panelDecimalLayout.createSequentialGroup()
-                                .addComponent(fieldDecimalCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(comboBoxSinalD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(fieldDecimalCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(labelBinSimples)
-                            .addComponent(labelSinalMag)
-                            .addComponent(labelC1)
-                            .addComponent(labelC2))
-                        .addGap(18, 18, 18)
-                        .addComponent(buttonIgualD)
-                        .addGap(18, 18, 18)
-                        .addGroup(panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(labelResultadoDecimalD)
-                            .addComponent(resultadoC2D)
-                            .addComponent(resultadoC1D)
-                            .addComponent(resultadoSinalMagD)
-                            .addComponent(labelResultadoBinarioD))))
-                .addContainerGap(77, Short.MAX_VALUE))
+        labelSinalMag.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        labelSinalMag.setText("Sinal Magnitude:");
+
+        labelBinSimples.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        labelBinSimples.setText("Binário Simples:");
+
+        javax.swing.GroupLayout panelDivResDLayout = new javax.swing.GroupLayout(panelDivResD);
+        panelDivResD.setLayout(panelDivResDLayout);
+        panelDivResDLayout.setHorizontalGroup(
+            panelDivResDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivResDLayout.createSequentialGroup()
+                .addGap(53, 53, 53)
+                .addGroup(panelDivResDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(labelBinSimples)
+                    .addComponent(labelSinalMag)
+                    .addComponent(labelC1)
+                    .addComponent(labelC2))
+                .addGap(79, 79, 79)
+                .addGroup(panelDivResDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelResultadoC2D)
+                    .addComponent(labelResultadoC1D)
+                    .addComponent(labelResultadoSinalMagD)
+                    .addComponent(labelResultadoBinarioD))
+                .addContainerGap(69, Short.MAX_VALUE))
         );
-        panelDecimalLayout.setVerticalGroup(
-            panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelDecimalLayout.createSequentialGroup()
+        panelDivResDLayout.setVerticalGroup(
+            panelDivResDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivResDLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(panelDecimalLayout.createSequentialGroup()
-                        .addGroup(panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(fieldDecimalCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(fieldDecimalCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(comboBoxSinalD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(buttonIgualD)
-                            .addComponent(labelResultadoDecimalD))
-                        .addGap(18, 18, 18)
+                .addGroup(panelDivResDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(panelDivResDLayout.createSequentialGroup()
                         .addComponent(labelBinSimples)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(labelSinalMag)
@@ -249,115 +261,243 @@ public class Main extends javax.swing.JFrame {
                         .addComponent(labelC1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(labelC2))
-                    .addGroup(panelDecimalLayout.createSequentialGroup()
+                    .addGroup(panelDivResDLayout.createSequentialGroup()
                         .addComponent(labelResultadoBinarioD, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoSinalMagD)
+                        .addComponent(labelResultadoSinalMagD)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoC1D)
+                        .addComponent(labelResultadoC1D)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoC2D)))
-                .addGap(25, 25, 25)
+                        .addComponent(labelResultadoC2D)))
+                .addContainerGap(33, Short.MAX_VALUE))
+        );
+
+        panelDivisaoCalcD.setBorder(javax.swing.BorderFactory.createTitledBorder("Cálculo"));
+
+        labelResultadoDecimalD.setText("Decimal");
+
+        buttonIgualD.setText("=");
+        buttonIgualD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonIgualDActionPerformed(evt);
+            }
+        });
+
+        fieldDecimalCalc2.setText("Decimal");
+
+        comboBoxSinalD.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "+", "-" }));
+        comboBoxSinalD.setToolTipText("");
+
+        fieldDecimalCalc1.setText("Decimal");
+
+        javax.swing.GroupLayout panelDivisaoCalcDLayout = new javax.swing.GroupLayout(panelDivisaoCalcD);
+        panelDivisaoCalcD.setLayout(panelDivisaoCalcDLayout);
+        panelDivisaoCalcDLayout.setHorizontalGroup(
+            panelDivisaoCalcDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivisaoCalcDLayout.createSequentialGroup()
+                .addGap(58, 58, 58)
+                .addComponent(fieldDecimalCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(comboBoxSinalD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(fieldDecimalCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(buttonIgualD)
+                .addGap(18, 18, 18)
+                .addComponent(labelResultadoDecimalD)
+                .addGap(46, 46, 46))
+        );
+        panelDivisaoCalcDLayout.setVerticalGroup(
+            panelDivisaoCalcDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivisaoCalcDLayout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addGroup(panelDivisaoCalcDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fieldDecimalCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fieldDecimalCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(comboBoxSinalD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(buttonIgualD)
+                    .addComponent(labelResultadoDecimalD))
+                .addContainerGap(34, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout panelDecimalLayout = new javax.swing.GroupLayout(panelDecimal);
+        panelDecimal.setLayout(panelDecimalLayout);
+        panelDecimalLayout.setHorizontalGroup(
+            panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDecimalLayout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(jLabel1)
-                .addContainerGap(121, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(panelDivisaoCalcD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(panelDivResD, javax.swing.GroupLayout.PREFERRED_SIZE, 411, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        panelDecimalLayout.setVerticalGroup(
+            panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDecimalLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(panelDivisaoCalcD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(panelDecimalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelDecimalLayout.createSequentialGroup()
+                        .addGap(57, 57, 57)
+                        .addComponent(jLabel1))
+                    .addGroup(panelDecimalLayout.createSequentialGroup()
+                        .addGap(11, 11, 11)
+                        .addComponent(panelDivResD, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
 
         tabCalculadora.addTab("Decimal", panelDecimal);
 
-        fieldBinarioCalc1.setText("Binário");
+        panelDivResD4.setBorder(javax.swing.BorderFactory.createTitledBorder("Resultados"));
+        panelDivResD4.setPreferredSize(new java.awt.Dimension(399, 122));
 
-        fieldBinarioCalc2.setText("Binário");
+        labelResultadoC2B.setText("Complemento de 2");
+
+        labelResultadoC1B.setText("Complemento de 1");
+
+        labelResultadoSinalMagB.setText("Sinal Magnitude");
+
+        labelResultadoBinarioB.setText("Binário");
+
+        labelC11.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        labelC11.setText("Complemento de 2:");
+
+        labelC12.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        labelC12.setText("Complemento de 1:");
+
+        labelSinalMag5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        labelSinalMag5.setText("Sinal Magnitude:");
+
+        labelBinSimples5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        labelBinSimples5.setText("Binário Simples:");
+
+        javax.swing.GroupLayout panelDivResD4Layout = new javax.swing.GroupLayout(panelDivResD4);
+        panelDivResD4.setLayout(panelDivResD4Layout);
+        panelDivResD4Layout.setHorizontalGroup(
+            panelDivResD4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivResD4Layout.createSequentialGroup()
+                .addGap(53, 53, 53)
+                .addGroup(panelDivResD4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(labelBinSimples5)
+                    .addComponent(labelSinalMag5)
+                    .addComponent(labelC12)
+                    .addComponent(labelC11))
+                .addGap(79, 79, 79)
+                .addGroup(panelDivResD4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelResultadoC2B)
+                    .addComponent(labelResultadoC1B)
+                    .addComponent(labelResultadoSinalMagB)
+                    .addComponent(labelResultadoBinarioB))
+                .addContainerGap(69, Short.MAX_VALUE))
+        );
+        panelDivResD4Layout.setVerticalGroup(
+            panelDivResD4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivResD4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelDivResD4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(panelDivResD4Layout.createSequentialGroup()
+                        .addComponent(labelBinSimples5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(labelSinalMag5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(labelC12)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(labelC11))
+                    .addGroup(panelDivResD4Layout.createSequentialGroup()
+                        .addComponent(labelResultadoBinarioB, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(labelResultadoSinalMagB)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(labelResultadoC1B)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(labelResultadoC2B)))
+                .addContainerGap(33, Short.MAX_VALUE))
+        );
+
+        panelDivisaoCalcD1.setBorder(javax.swing.BorderFactory.createTitledBorder("Cálculo"));
+
+        labelResultadoDecimalB.setText("Decimal");
+
+        buttonIgualB.setText("=");
+        buttonIgualB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonIgualBActionPerformed(evt);
+            }
+        });
+
+        fieldBinCalc2.setText("Binário");
 
         comboBoxSinalB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "+", "-" }));
         comboBoxSinalB.setToolTipText("");
 
-        labelResultadoDecimalB.setText("Decimal");
+        fieldBinCalc1.setText("Binário");
+        fieldBinCalc1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fieldBinCalc1ActionPerformed(evt);
+            }
+        });
 
-        labelResultadoBinarioB.setText("Binário");
-
-        resultadoSinalMagB.setText("Sinal Magnitude");
-
-        resultadoC1B.setText("Complemento de 1");
-
-        resultadoC2B.setText("Complemento de 2");
-
-        labelBinSimples1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        labelBinSimples1.setText("Binário Simples:");
-
-        labelSinalMag1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        labelSinalMag1.setText("Sinal Magnitude:");
-
-        labelC3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        labelC3.setText("Complemento de 1:");
-
-        labelC4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        labelC4.setText("Complemento de 2:");
-
-        buttonIgualB.setText("=");
-
-        javax.swing.GroupLayout panelBinárioLayout = new javax.swing.GroupLayout(panelBinário);
-        panelBinário.setLayout(panelBinárioLayout);
-        panelBinárioLayout.setHorizontalGroup(
-            panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelBinárioLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addGroup(panelBinárioLayout.createSequentialGroup()
-                        .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(panelBinárioLayout.createSequentialGroup()
-                                .addComponent(fieldBinarioCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(comboBoxSinalB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(fieldBinarioCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(labelBinSimples1)
-                            .addComponent(labelSinalMag1)
-                            .addComponent(labelC3)
-                            .addComponent(labelC4))
-                        .addGap(18, 18, 18)
-                        .addComponent(buttonIgualB)
-                        .addGap(18, 18, 18)
-                        .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(labelResultadoDecimalB)
-                            .addComponent(resultadoC2B)
-                            .addComponent(resultadoC1B)
-                            .addComponent(resultadoSinalMagB)
-                            .addComponent(labelResultadoBinarioB))))
-                .addContainerGap(77, Short.MAX_VALUE))
-        );
-        panelBinárioLayout.setVerticalGroup(
-            panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelBinárioLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(fieldBinarioCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fieldBinarioCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(comboBoxSinalB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(labelResultadoDecimalB)
-                    .addComponent(buttonIgualB))
+        javax.swing.GroupLayout panelDivisaoCalcD1Layout = new javax.swing.GroupLayout(panelDivisaoCalcD1);
+        panelDivisaoCalcD1.setLayout(panelDivisaoCalcD1Layout);
+        panelDivisaoCalcD1Layout.setHorizontalGroup(
+            panelDivisaoCalcD1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivisaoCalcD1Layout.createSequentialGroup()
+                .addGap(58, 58, 58)
+                .addComponent(fieldBinCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(comboBoxSinalB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(fieldBinCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelResultadoBinarioB)
-                    .addComponent(labelBinSimples1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(resultadoSinalMagB)
-                    .addComponent(labelSinalMag1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(resultadoC1B)
-                    .addComponent(labelC3))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panelBinárioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(resultadoC2B)
-                    .addComponent(labelC4))
+                .addComponent(buttonIgualB)
+                .addGap(18, 18, 18)
+                .addComponent(labelResultadoDecimalB)
+                .addGap(46, 46, 46))
+        );
+        panelDivisaoCalcD1Layout.setVerticalGroup(
+            panelDivisaoCalcD1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDivisaoCalcD1Layout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addComponent(jLabel2)
-                .addContainerGap(120, Short.MAX_VALUE))
+                .addGroup(panelDivisaoCalcD1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fieldBinCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fieldBinCalc2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(comboBoxSinalB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(buttonIgualB)
+                    .addComponent(labelResultadoDecimalB))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
-        tabCalculadora.addTab("Binário", panelBinário);
+        javax.swing.GroupLayout panelBinarioLayout = new javax.swing.GroupLayout(panelBinario);
+        panelBinario.setLayout(panelBinarioLayout);
+        panelBinarioLayout.setHorizontalGroup(
+            panelBinarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelBinarioLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelBinarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(panelDivisaoCalcD1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(panelDivResD4, javax.swing.GroupLayout.PREFERRED_SIZE, 411, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        panelBinarioLayout.setVerticalGroup(
+            panelBinarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelBinarioLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(panelDivisaoCalcD1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(panelBinarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelBinarioLayout.createSequentialGroup()
+                        .addGap(57, 57, 57)
+                        .addComponent(jLabel3))
+                    .addGroup(panelBinarioLayout.createSequentialGroup()
+                        .addGap(11, 11, 11)
+                        .addComponent(panelDivResD4, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(53, Short.MAX_VALUE))
+        );
+
+        tabCalculadora.addTab("Binário", panelBinario);
 
         javax.swing.GroupLayout panelCalculadoraLayout = new javax.swing.GroupLayout(panelCalculadora);
         panelCalculadora.setLayout(panelCalculadoraLayout);
@@ -370,30 +510,134 @@ public class Main extends javax.swing.JFrame {
             .addComponent(tabCalculadora)
         );
 
-        tabs.addTab("Calculadora", panelCalculadora);
+        tabCreditos.addTab("Calculadora", panelCalculadora);
+
+        panelExplicacao.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+
+        jLabel2.setText("Projeto Integrador de Arquitetura de Computadores dos alunos do segundo periodo");
+
+        jLabel4.setText("de Sistemas de  Informação da Unileste-MG.");
+
+        javax.swing.GroupLayout panelExplicacaoLayout = new javax.swing.GroupLayout(panelExplicacao);
+        panelExplicacao.setLayout(panelExplicacaoLayout);
+        panelExplicacaoLayout.setHorizontalGroup(
+            panelExplicacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelExplicacaoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelExplicacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel4))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        panelExplicacaoLayout.setVerticalGroup(
+            panelExplicacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelExplicacaoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        panelAlunos.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "Alunos", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11)))); // NOI18N
+
+        labelMaycon.setText("Maycon Porto Silva");
+
+        labelPaulo.setText("Paulo Henrique Mendes Vieira");
+
+        labelVitor.setText("Vitor Lucio Moreira");
+
+        labelSamuel.setText("Samuel Ferreira Chaves");
+
+        javax.swing.GroupLayout panelAlunosLayout = new javax.swing.GroupLayout(panelAlunos);
+        panelAlunos.setLayout(panelAlunosLayout);
+        panelAlunosLayout.setHorizontalGroup(
+            panelAlunosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAlunosLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelAlunosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelMaycon)
+                    .addComponent(labelPaulo)
+                    .addComponent(labelSamuel)
+                    .addComponent(labelVitor))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        panelAlunosLayout.setVerticalGroup(
+            panelAlunosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelAlunosLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(labelMaycon)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelPaulo)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelSamuel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(labelVitor)
+                .addContainerGap(18, Short.MAX_VALUE))
+        );
+
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Professor", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
+
+        jLabel5.setText("Demétrio Renó Magalhães");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel5)
+                .addContainerGap(62, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel5)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout panelCreditosLayout = new javax.swing.GroupLayout(panelCreditos);
+        panelCreditos.setLayout(panelCreditosLayout);
+        panelCreditosLayout.setHorizontalGroup(
+            panelCreditosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelCreditosLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelCreditosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(panelExplicacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(panelCreditosLayout.createSequentialGroup()
+                        .addComponent(panelAlunos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        panelCreditosLayout.setVerticalGroup(
+            panelCreditosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelCreditosLayout.createSequentialGroup()
+                .addGap(41, 41, 41)
+                .addComponent(panelExplicacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
+                .addGroup(panelCreditosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(panelAlunos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(70, 70, 70))
+        );
+
+        tabCreditos.addTab("Créditos", panelCreditos);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tabs)
+            .addComponent(tabCreditos)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tabs)
+            .addComponent(tabCreditos)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void buttonConverterBinarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonConverterBinarioActionPerformed
-        // TODO add your handling code here:
-        //NÃO FUNCIONA AINDA
-        String binario = fieldBinario.getText();
-        int[] vetorBin = Leitura.StringParaVetorInt(binario);
-        int decimal = Conversao.conversaoDecimal(vetorBin);
-        labelConvertidoDecimal.setText(String.valueOf(decimal));
-    }//GEN-LAST:event_buttonConverterBinarioActionPerformed
 
     private void buttonConverterDecimalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonConverterDecimalActionPerformed
         // TODO add your handling code here:
@@ -406,6 +650,88 @@ public class Main extends javax.swing.JFrame {
     private void fieldDecimalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldDecimalActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_fieldDecimalActionPerformed
+
+    private void buttonConverterBinarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonConverterBinarioActionPerformed
+        // TODO add your handling code here:
+        String binS = fieldBinario.getText();
+        int binV[] = Leitura.StringParaVetorInt(binS);
+        int dec = Conversao.conversaoDecimal(binV);
+        labelConvertidoDecimal.setText(Integer.toString(dec));
+    }//GEN-LAST:event_buttonConverterBinarioActionPerformed
+
+    private void buttonIgualDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonIgualDActionPerformed
+        // TODO add your handling code here:
+        int dec1 = Integer.parseInt(fieldDecimalCalc1.getText());
+        int dec2 = Integer.parseInt(fieldDecimalCalc2.getText());
+        int resultadoD = 0;
+        String sinal = comboBoxSinalD.getSelectedItem().toString();
+        System.out.println(sinal);
+        if (sinal.equals("+")){
+            resultadoD = dec1 + dec2;
+        } else {
+            resultadoD = dec1 - dec2;
+        }
+        if (resultadoD >= 0){
+            labelResultadoDecimalD.setText(String.valueOf(resultadoD));
+            String binS = Conversao.conversaoBinario(resultadoD);
+            labelResultadoBinarioD.setText("+"+binS);
+            labelResultadoSinalMagD.setText("0"+binS);
+            labelResultadoC1D.setText("0"+binS);
+            labelResultadoC2D.setText("0"+binS);
+        } else {
+            labelResultadoDecimalD.setText(String.valueOf(resultadoD));
+            String binS = Conversao.conversaoBinario(resultadoD*(-1));
+            labelResultadoBinarioD.setText("-"+binS);
+            labelResultadoSinalMagD.setText("1"+binS);
+            int binV[] = Leitura.StringParaVetorInt(binS);
+            Complementos.converteC1(binV);
+            String binC1 = Leitura.VetorIntParaString(binV);
+            labelResultadoC1D.setText("1"+binC1);
+            String binC2 = Complementos.converteC2(binV);
+            labelResultadoC2D.setText("1"+binC2);
+
+        }
+    }//GEN-LAST:event_buttonIgualDActionPerformed
+
+    private void buttonIgualBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonIgualBActionPerformed
+        // TODO add your handling code here:
+        int bin1[] = Leitura.StringParaVetorInt(fieldBinCalc1.getText());
+        int bin2[] = Leitura.StringParaVetorInt(fieldBinCalc2.getText());
+        int dec1 = Conversao.conversaoDecimal(bin1);
+        int dec2 = Conversao.conversaoDecimal(bin2);;
+        int resultadoD = 0;
+        String sinal = comboBoxSinalB.getSelectedItem().toString();
+        System.out.println(sinal);
+        if (sinal.equals("+")){
+            resultadoD = dec1 + dec2;
+        } else {
+            resultadoD = dec1 - dec2;
+        }
+        if (resultadoD >= 0){
+            labelResultadoDecimalB.setText(String.valueOf(resultadoD));
+            String binS = Conversao.conversaoBinario(resultadoD);
+            labelResultadoBinarioB.setText("+"+binS);
+            labelResultadoSinalMagB.setText("0"+binS);
+            labelResultadoC1B.setText("0"+binS);
+            labelResultadoC2B.setText("0"+binS);
+        } else {
+            labelResultadoDecimalB.setText(String.valueOf(resultadoD));
+            String binS = Conversao.conversaoBinario(resultadoD*(-1));
+            labelResultadoBinarioB.setText("-"+binS);
+            labelResultadoSinalMagB.setText("1"+binS);
+            int binV[] = Leitura.StringParaVetorInt(binS);
+            Complementos.converteC1(binV);
+            String binC1 = Leitura.VetorIntParaString(binV);
+            labelResultadoC1B.setText("1"+binC1);
+            String binC2 = Complementos.converteC2(binV);
+            labelResultadoC2B.setText("1"+binC2);
+
+        }
+    }//GEN-LAST:event_buttonIgualBActionPerformed
+
+    private void fieldBinCalc1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldBinCalc1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fieldBinCalc1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -449,43 +775,58 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton buttonIgualD;
     private javax.swing.JComboBox<String> comboBoxSinalB;
     private javax.swing.JComboBox<String> comboBoxSinalD;
+    private javax.swing.JTextField fieldBinCalc1;
+    private javax.swing.JTextField fieldBinCalc2;
     private javax.swing.JTextField fieldBinario;
-    private javax.swing.JTextField fieldBinarioCalc1;
-    private javax.swing.JTextField fieldBinarioCalc2;
     private javax.swing.JTextField fieldDecimal;
     private javax.swing.JTextField fieldDecimalCalc1;
     private javax.swing.JTextField fieldDecimalCalc2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel labelBinSimples;
-    private javax.swing.JLabel labelBinSimples1;
+    private javax.swing.JLabel labelBinSimples5;
     private javax.swing.JLabel labelC1;
+    private javax.swing.JLabel labelC11;
+    private javax.swing.JLabel labelC12;
     private javax.swing.JLabel labelC2;
-    private javax.swing.JLabel labelC3;
-    private javax.swing.JLabel labelC4;
-    private javax.swing.JLabel labelConversaoBinarioParaDecimal;
-    private javax.swing.JLabel labelConversaoBinarioParaDecimal1;
     private javax.swing.JLabel labelConvertidoBinario;
     private javax.swing.JLabel labelConvertidoDecimal;
     private javax.swing.JLabel labelDoisPontos;
     private javax.swing.JLabel labelDoisPontos1;
+    private javax.swing.JLabel labelMaycon;
+    private javax.swing.JLabel labelPaulo;
     private javax.swing.JLabel labelResultadoBinarioB;
     private javax.swing.JLabel labelResultadoBinarioD;
+    private javax.swing.JLabel labelResultadoC1B;
+    private javax.swing.JLabel labelResultadoC1D;
+    private javax.swing.JLabel labelResultadoC2B;
+    private javax.swing.JLabel labelResultadoC2D;
     private javax.swing.JLabel labelResultadoDecimalB;
     private javax.swing.JLabel labelResultadoDecimalD;
+    private javax.swing.JLabel labelResultadoSinalMagB;
+    private javax.swing.JLabel labelResultadoSinalMagD;
+    private javax.swing.JLabel labelSamuel;
     private javax.swing.JLabel labelSinalMag;
-    private javax.swing.JLabel labelSinalMag1;
-    private javax.swing.JPanel panelBinário;
+    private javax.swing.JLabel labelSinalMag5;
+    private javax.swing.JLabel labelVitor;
+    private javax.swing.JPanel panelAlunos;
+    private javax.swing.JPanel panelBinario;
     private javax.swing.JPanel panelCalculadora;
+    private javax.swing.JPanel panelConvBinParaDec;
+    private javax.swing.JPanel panelConvDecParaBin;
     private javax.swing.JPanel panelConversao;
+    private javax.swing.JPanel panelCreditos;
     private javax.swing.JPanel panelDecimal;
-    private javax.swing.JLabel resultadoC1B;
-    private javax.swing.JLabel resultadoC1D;
-    private javax.swing.JLabel resultadoC2B;
-    private javax.swing.JLabel resultadoC2D;
-    private javax.swing.JLabel resultadoSinalMagB;
-    private javax.swing.JLabel resultadoSinalMagD;
+    private javax.swing.JPanel panelDivResD;
+    private javax.swing.JPanel panelDivResD4;
+    private javax.swing.JPanel panelDivisaoCalcD;
+    private javax.swing.JPanel panelDivisaoCalcD1;
+    private javax.swing.JPanel panelExplicacao;
     private javax.swing.JTabbedPane tabCalculadora;
-    private javax.swing.JTabbedPane tabs;
+    private javax.swing.JTabbedPane tabCreditos;
     // End of variables declaration//GEN-END:variables
 }
